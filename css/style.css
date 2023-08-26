@@ -85,3 +85,10 @@ img
     background-position: center center;
 
 }
+
+.header__texto
+{
+    text-align: center;
+    color: var(--blanco);
+    padding-top: 5rem;
+}
