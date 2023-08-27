@@ -83,6 +83,7 @@ img
     height: 60rem;
     background-size: cover;
     background-position: center center;
+    padding-top: 5rem;
 
 }
 
@@ -91,4 +92,67 @@ img
     text-align: center;
     color: var(--blanco);
     padding-top: 5rem;
+    /* margin-top: 15rem; */
 }
+
+@media (min-width: 768px) 
+{
+    .barra
+    {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;      
+    }
+ 
+}
+
+.logo
+{
+    color: var(--blanco);
+}
+
+.logo__nombre
+{
+    font-weight: 400;
+
+}
+
+.logo__blog
+{
+    font-weight: 700;
+}
+
+@media (min-width: 768px) 
+{
+    .navegacion
+    {
+        display: flex;
+        /* justify-content: space-between; */
+        /* gap: 2rem; */
+    }
+    
+}
+
+
+.navegacion__enlace
+{
+    display: block;
+    color: var(--blanco);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 1rem;
+ 
+    
+}
+
+@media (min-width: 768px) 
+{
+    .navegacion__enlace
+    {
+        margin-right: 2rem;
+        /* flex-basis: calc(33.3% - 2rem); */
+    }
+}
+
+
+
