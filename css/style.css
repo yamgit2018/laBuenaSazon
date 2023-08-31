@@ -79,6 +79,11 @@ img
     margin: 0;
 }
 
+.no-padding
+{
+    padding: 0;
+}
+
 .centrar-texto
 {
     text-align: center;
@@ -220,4 +225,33 @@ img
 .boton-primario
 {
     background-color: var(--negro);
+}
+
+.boton-secundario
+{
+    background-color: var(--primario);
+}
+
+.curso
+{
+    list-style: none;
+    border-bottom: 2px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.curso:last-child
+{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.curso__label
+{
+    font-family: var(--fuenteHeadings);
+    font-weight: 700;
+}
+
+.curso__info
+{
+    font-weight: 400;
 }
