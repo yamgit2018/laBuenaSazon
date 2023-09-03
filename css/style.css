@@ -97,6 +97,7 @@ img
     background-size: cover;
     background-position: center center;
     padding-top: 5rem;
+   
 
 }
 
@@ -108,16 +109,7 @@ img
     /* margin-top: 15rem; */
 }
 
-@media (min-width: 768px) 
-{
-    .barra
-    {
-       display: flex;
-       justify-content: space-between;
-       align-items: center;      
-    }
- 
-}
+
 
 .logo
 {
@@ -133,6 +125,17 @@ img
 .logo__blog
 {
     font-weight: 700;
+
+}
+
+@media (min-width: 768px) 
+{
+     .barra
+     {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
 }
 
 @media (min-width: 768px) 
@@ -141,7 +144,7 @@ img
     {
         display: flex;
         /* justify-content: space-between; */
-        /* gap: 2rem; */
+        gap: 2rem;
     }
     
 }
@@ -255,3 +258,12 @@ img
 {
     font-weight: 400;
 }
+
+/* Footer */
+
+.footer
+{
+    background-color: var(--negro);
+}
+
+
