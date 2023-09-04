@@ -264,6 +264,32 @@ img
 .footer
 {
     background-color: var(--negro);
+    margin-top: 5rem
 }
 
+/* Nosotros */
+
+@media (min-width: 768px) 
+{
+    .sobre--nosotros
+    {
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        padding-bottom: 2rem; */
+
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sobre--nosotros__imagen
+    {
+        flex: 0 0 calc(50% - 2rem);
+    }
+
+    .sobre--nosotros__texto
+    {
+        flex: 0 0 calc(50% - 2rem);
+    }
+}
 
