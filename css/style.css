@@ -293,3 +293,20 @@ img
     }
 }
 
+@media (min-width: 768px) 
+{
+    .curso--widget
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+        border-bottom: 2px solid var(--gris);
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+    } 
+
+    .curso--widget:last-child
+    {
+        border-bottom: none;
+    }
+}
