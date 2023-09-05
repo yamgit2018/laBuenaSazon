@@ -310,3 +310,13 @@ img
         border-bottom: none;
     }
 }
+
+/* Contacto */
+
+.contacto-bk
+{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
