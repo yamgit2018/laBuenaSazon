@@ -211,7 +211,13 @@ img
     text-align: center;
     padding: 1rem 2rem;
     margin-bottom: 2rem;
+    border: none;
 
+}
+
+.boton:hover
+{
+    cursor: pointer;
 }
 
 @media (min-width: 768px) 
@@ -319,4 +325,38 @@ img
     height: 40rem;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Formulario */
+
+.formulario
+{
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    background-color: var(--blanco);
+    padding: 5rem;
+}
+
+.campo
+{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo__label
+{
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.campo__field
+{
+    flex: 1;
+}
+
+.campo__field--textarea
+{
+    height: 20rem;
+    width: 40rem;
 }
