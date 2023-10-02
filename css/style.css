@@ -89,10 +89,14 @@ img
     text-align: center;
 }    
  
+.lado-derecha
+{
+    text-align: left;
+}
 
 .header
 {
-    background-image: url(../img/chincha5_1.jpg);
+    background-image: url(../img/chincha_transformed_1.jpeg);
     height: 60rem;
     background-size: cover;
     background-position: center center;
@@ -105,10 +109,14 @@ img
 {
     text-align: center;
     color: var(--blanco);
-    padding-top: 5rem;
+    padding-top: 17rem;
     /* margin-top: 15rem; */
 }
 
+.desayuno
+{
+    margin-left: 5rem;
+}
 
 
 .logo
