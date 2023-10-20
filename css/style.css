@@ -208,6 +208,18 @@ img
     margin-bottom: 0;
 }
 
+@media (min-width: 768px) 
+{
+    .entrada__imagen img
+    {
+        max-width: 45rem;
+       
+    }
+
+}
+
+
+
 .boton
 {
     display: block;
